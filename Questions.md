@@ -1,11 +1,11 @@
-1. What is the keyboard interaction missing?
+What is the keyboard interaction missing?
 
 The original accordion component was missing the following keyboard interactions:
 
 Focus Navigation: Users cant not navigate through the accordion buttons when using the tab key because there were no proper focus styles or keyboard support.
 Expand/Collapse: The accordion sections could not be toggled when pressing enter or space keys, which is a common accessibility requirement.
 
-2. What is the ARIA missing?
+What is the ARIA missing?
 
 The original accordion component was missing key ARIA attributes required for accessible accordions:
 
