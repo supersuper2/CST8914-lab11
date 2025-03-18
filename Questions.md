@@ -6,6 +6,7 @@ Focus Navigation: Users cant not navigate through the accordion buttons when usi
 Expand/Collapse: The accordion sections could not be toggled when pressing enter or space keys, which is a common accessibility requirement.
 
 2. What is the ARIA missing?
+
 The original accordion component was missing key ARIA attributes required for accessible accordions:
 
 "aria-expanded": This attribute was missing on the buttons to indicate a section was either expanded (true) or collapsed (false).
