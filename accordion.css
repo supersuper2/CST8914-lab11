@@ -14,14 +14,14 @@
 button.accordion {
   width: 100%;
   background-color: whitesmoke;
-  border: none;
+  border: 2px;
   outline: none;
   text-align: left;
   padding: 15px 20px;
   font-size: 18px;
   color: #333;
   cursor: pointer;
-  transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear; 
 }
 
 button.accordion:after {
@@ -41,10 +41,17 @@ button.accordion.is-open {
   background-color: #ddd;
 }
 
+
+button.accordion:focus-visible {
+  border-top: 1px solid #000000; /* Adds top border for content separation */
+  border-bottom: 1px solid #000000; /* Adds top border for content separation */
+}
+
 .accordion-content {
   background-color: white;
   border-left: 1px solid whitesmoke;
   border-right: 1px solid whitesmoke;
+  border-top: 1px solid #ddd; /* Adds top border for content separation */
   padding: 0 20px;
   max-height: 0;
   overflow: hidden;
